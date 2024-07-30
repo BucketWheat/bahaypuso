@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(252, 251, 249);
+  margin: 0;
+  padding: 0;
+  background-image: url("../imgs/seniors1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 630px;
+}
+.navbar {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand > span {
+  color: white;
+  font-size: 35px;
+}
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+/* --------------------------------
+        MAIN CONTENT STYLES
+----------------------------------- */
+.main-content {
+  width: 100%;
+  margin-top: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.content-header {
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(26, 99, 99);
+}
+.header-title {
+  font-size: 3.3em;
+}
+.header-subtitle {
+  font-size: 30px;
+}
+.content-body {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(248, 245, 237, 0.3);
+}
+.carousel {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.divider {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgb(38, 116, 116);
+  color: white;
+  font-size: 30px;
+}
+.content {
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  background-color: white;
+}
+.par1, .par2, .par3{
+  margin: 30px 150px 30px 150px;
+}
+.paragraph h2 {
+  color: rgb(26, 99, 99);
+}
+.row3 .paragraph ul {
+  text-align: start;
+  margin: 0 -30px;
+}
+.map-direction {
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+}
+.content-footer {
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+}
+.col2 ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.col2 ul li a {
+  color: white;
+}
+.col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.col3 .lower {
+  margin-top: 30px;
+}
+.col3 a{
+  color: white;
+}
+.fas {
+  font-size: 20px;
+}
+.fab {
+  font-size: 30px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: rgb(38, 116, 116);
+  color: white;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: rgb(252, 251, 249);
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/seniors1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 530px;
+  }
+  .navbar {
+    font-size: 15px;
+  }
+  .navbar-brand > span {
+    color: white;
+    font-size: 20px;
+  }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+  .header-title {
+    font-size: 35px;
+  }
+  .header-subtitle {
+    font-size: 20px;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .divider {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: rgb(38, 116, 116);
+    color: white;
+    font-size: 30px;
+  }
+  .content {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    background-color: white;
+  }
+  .par1, .par2, .par3{
+    margin: 30px 50px 30px 50px;
+  }
+  .paragraph h2 {
+    color: rgb(26, 99, 99);
+  }
+  .row3 .paragraph ul {
+    text-align: start;
+    margin: 0 -30px;
+  }
+  .map-direction {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(252, 251, 249);
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/seniors1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 430px;
+  }
+  .navbar {
+    font-size: 13px;
+  }
+  .navbar-brand > span {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-brand img {
+    width: 45px;
+    height: 45px;
+  }
+  .carousel {
+    width: 100%;
+    height: 200px;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+}

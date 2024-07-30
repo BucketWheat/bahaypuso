@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+    width: 35%;
+    padding: 2rem 0;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: .5em;
+}
+
+.form-container {
+    width: 80%;
+}
+  
+.login-heading {
+    font-weight: 800;
+}
+
+.far {
+    position: absolute;
+    right: 15px;
+    transform: translate(0, -50%);
+    top: 50%;
+    cursor: pointer;
+    color: #666666;
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    background-color: rgb(90, 139, 141);
+    border: 1px solid rgb(90, 139, 141);
+}
+
+.btn-login:hover, .btn-login:focus, .btn-login:active {
+    background-color: rgb(70, 117, 119);
+}
+
+.btn-login:disabled {
+    background-color: rgb(81, 136, 138);
+    border: 1px solid rgb(81, 136, 138);
+}
+
+.resend {
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: rgb(40, 77, 78);
+}
+
+.navs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    padding: .5rem;
+}
+
+.home img {
+    cursor: pointer;
+}
+
+.close {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.close a {
+    color: rgb(150, 150, 150);
+}
+
+  
+  

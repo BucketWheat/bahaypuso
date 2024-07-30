@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(252, 251, 249);
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-size: 20px;
+}
+.navbar-brand > span {
+  color: white;
+  font-size: 35px;
+}
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.mainContent {
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: white;
+}
+.donateHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carousel {
+  width: 100%;
+  height: auto;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.donateMain {
+  width: 100%;
+  padding: 10px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionLeft {
+  width: 40%;
+  padding: 20px;
+  font-size: 25px;
+  background-color: rgb(52, 160, 160);
+  color: white;
+}
+.sectionRight {
+  width: 60%;
+  height: fit-content;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.45);
+}
+.donate {
+  background-color: rgb(52, 160, 160);
+  border-color: rgb(52, 160, 160);
+  font-size: 20px;
+  float: right;
+}
+.donate:hover {
+  background-color: rgba(255, 50, 50, 0.795);
+  border-color: rgba(255, 50, 50, 0.795);
+}
+.content-footer {
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: rgb(38, 116, 116);
+  color: white;
+}
+
+/* =========================================================
+                    DONATIONS STYLES
+============================================================ */
+.donations-main {
+  width: 100%;
+}
+
+/* =========================================================
+                      MEDIA QUERIES
+============================================================ */
+@media only screen and (max-width: 900px) {
+  .navbar {
+    font-size: 15px;
+  }
+  .navbar-brand > span {
+    color: white;
+    font-size: 20px;
+  }
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+  .mainContent {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+  }
+  .donateHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .donateMain {
+    width: 100%;
+    padding: 10px;
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionLeft {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(52, 160, 160);
+    color: white;
+  }
+  .sectionLeft p > strong {
+    float: right;
+  }
+  .sectionRight {
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.45);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 13px;
+  }
+  .navbar-brand > span {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-brand img {
+    width: 45px;
+    height: 45px;
+  }
+  .mainContent {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+  }
+  .donateHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel {
+    width: 100%;
+    height: 200px;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .donateMain {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionLeft {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgb(52, 160, 160);
+    color: white;
+  }
+  .sectionLeft p > strong {
+    float: right;
+  }
+  .sectionRight {
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.45);
+  }
+}
